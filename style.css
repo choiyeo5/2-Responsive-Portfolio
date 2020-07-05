@@ -8,3 +8,22 @@
     position: fixed;
     width: 100%;
 }
+
+.container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+.thumbnail {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.background {
+    background-color: lightgrey;
+}
