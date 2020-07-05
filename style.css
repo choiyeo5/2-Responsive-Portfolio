@@ -13,6 +13,7 @@
     background-color: white;
     margin: 20px auto;
     padding: 20px;
+    overflow: auto;
 }
 
 hr.solid {
@@ -26,4 +27,22 @@ hr.solid {
 
 .background {
     background-color: lightgrey;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    width: 100%;
+    padding: 10px;
 }
