@@ -52,3 +52,46 @@ hr.solid {
     width: 100%;
     padding: 8px;
 }
+
+@media screen and (max-width: 980px) {
+    .img-container {
+        position: relative;
+        text-align: center;
+        color: white;
+        float: left;
+        margin: 0 1em 1em 0;
+        width: 45%;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 768px and below */
+  @media screen and (max-width: 768px) {
+    .img-container {
+        position: relative;
+        text-align: center;
+        color: white;
+        float: left;
+        margin: 0 1em 1em 0;
+        width: 45%;
+    }
+  }
+  
+  /* Width at 640px and below */
+  @media screen and (max-width: 640px) {
+    .img-container {
+        position: relative;
+        text-align: center;
+        color: white;
+        float: left;
+        margin: 0 1em 1em 0;
+        width: 100%;
+    }
+
+    .img-thumbnail {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  }
+  
